@@ -18,7 +18,7 @@ namespace BinarySearch
             int key = -10;
             // Here we call the search with the array and the key while setting the return value to the variable result.
             int result = BinarySearch(array, key);
-            Console.WriteLine(result);
+            Console.WriteLine($"The key is: {key} and the result is: {result}");
         }
 
         static int BinarySearch(int[] array, int key)
@@ -33,7 +33,6 @@ namespace BinarySearch
             {
                 // Mid is the average of the start and end value and the array element at that index is compared to the key.
                 mid = (start + end) / 2;
-                Console.WriteLine(mid);
                 if (array[mid] < key)
                     // When the key is larger than the element at mid; that means anything that is mid or below will not be the key therefore we set the lower-bound of the range to be 1 value higher than mid (since mid is already tested).
                     start = mid + 1;
