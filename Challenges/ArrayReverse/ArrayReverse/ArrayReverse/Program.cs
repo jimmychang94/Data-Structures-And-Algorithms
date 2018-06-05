@@ -7,10 +7,20 @@ namespace ArrayReverse
         static void Main(string[] args)
         {
             // The following lines of code creates an input array and sets the output to a variable called reversedArray.
-            int[] array = new int[20];
+            int[] array = new int[5];
             for (int i = 0; i < array.Length; i ++)
                 array[i] = i;
             int[] reversedArray = ArrayReverse(array);
+            Console.WriteLine("Here is the original array");
+            foreach (int num in array)
+            {
+                Console.WriteLine(num);
+            }
+            Console.WriteLine("Here is the reversed array");
+            foreach (int num in reversedArray)
+            {
+                Console.WriteLine(num);
+            }
         }
         
         static int[] ArrayReverse(int[] array)
