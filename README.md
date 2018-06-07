@@ -1,5 +1,7 @@
-# Data-Structures-And-Algorithms
+# Data Structures And Algorithms
 
-# Table of Contents:
-[Array Reverse](Challenges/ArrayReverse/Readme.md);
-[Array Binary Search](Challenges/BinarySearch/README.md);
+## Table of Contents:
+
+1. [Reverse an Array](Challenges/ArrayReverse);
+2. [Binary Search](Challenges/BinarySearch);
+3. [Adjacent Product](Challenges/AdjacentProduct);
