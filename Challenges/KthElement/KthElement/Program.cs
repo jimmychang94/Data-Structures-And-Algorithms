@@ -8,6 +8,10 @@ namespace KthElement
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            KthElement();
+        }
+        public static void KthElement()
+        {
             Node n1 = new Node(10);
             Node n2 = new Node(20);
             Node n3 = new Node(30);
@@ -16,10 +20,8 @@ namespace KthElement
             ll.Add(n3);
             ll.Add(n2);
             ll.Add(n1);
-
-            // Act
-            Node result = ll.KthElement(0);
-            Console.WriteLine(result.Value);
+            int k = 3;
+            Node result = ll.KthElement(k);
         }
         
     }
