@@ -7,3 +7,4 @@
 3. [Adjacent Product](Challenges/AdjacentProduct)  
 4. [Linked Lists](Challenges/LinkedLists/README.md) 
 5. [Kth From the End](Challenges/KthElement/README.md)  
+6. [Merge Two Linked Lists](Challenges/LinkedListmerge/README.md)  
