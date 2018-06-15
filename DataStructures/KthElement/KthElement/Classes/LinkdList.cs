@@ -151,7 +151,7 @@ namespace KthElement.Classes
         {
             if (k < 0)
             {
-                throw new ArgumentOutOfRangeException();
+                throw new IndexOutOfRangeException();
             }
             Current = Head;
             Node Runner = Head;
