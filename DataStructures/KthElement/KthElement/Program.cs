@@ -21,7 +21,19 @@ namespace KthElement
             ll.Add(n2);
             ll.Add(n1);
             int k = 3;
-            Node result = ll.KthElement(k);
+            try
+            {
+                Node result = ll.KthElement(k);
+                Console.WriteLine(result.Value);
+            }
+            catch (IndexOutOfRangeException)
+            {
+                Console.WriteLine("The input needs to be positive.");
+            }
+            catch (ArgumentOutOfRangeException)
+            {
+                Console.WriteLine("The input is too large.");
+            }
         }
         
     }
