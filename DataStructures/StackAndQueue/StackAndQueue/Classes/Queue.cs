@@ -12,7 +12,7 @@ namespace StackAndQueue.Classes
         public Node Front { get; set; }
 
         /// <summary>
-        /// A Node for the "rear" of the queue. THis is where a node would be enqueued.
+        /// A Node for the "rear" of the queue. This is where a node would be enqueued.
         /// </summary>
         public Node Rear { get; set; }
 

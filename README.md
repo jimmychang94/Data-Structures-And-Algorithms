@@ -6,6 +6,6 @@
 2. [Binary Search](Challenges/BinarySearch)  
 3. [Adjacent Product](Challenges/AdjacentProduct)  
 4. [Linked Lists](DataStructures/LinkedLists/README.md) 
-5. [Kth From the End](DataStructures/KthElement/README.md)  
-6. [Merge Two Linked Lists](DataStructures/LinkedListmerge/README.md)  
+5. [Kth From the End](Challenges/KthElement/README.md)  
+6. [Merge Two Linked Lists](Challenges/LinkedListmerge/README.md)  
 7. [Stack and Queue](DataStructures/StackAndQueue/README.md)  
