@@ -9,3 +9,4 @@
 5. [Kth From the End](Challenges/KthElement/README.md)  
 6. [Merge Two Linked Lists](Challenges/LinkedListmerge/README.md)  
 7. [Stack and Queue](DataStructures/StackAndQueue/README.md)  
+8. [Queueing with Stacks](Challenges/QueueWithStacks/README.md)  
