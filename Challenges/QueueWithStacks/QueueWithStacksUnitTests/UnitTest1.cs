@@ -36,6 +36,7 @@ namespace QueueWithStacksUnitTests
 
             Stack stack1 = new Stack(n1);
             Stack stack2 = new Stack(n2);
+            stack2.Pop();
 
             Queue queue = new Queue(stack1, stack2);
             queue.Enqueue(10);
@@ -57,6 +58,7 @@ namespace QueueWithStacksUnitTests
 
             Stack stack1 = new Stack(n1);
             Stack stack2 = new Stack(n2);
+            stack2.Pop();
 
             Queue queue = new Queue(stack1, stack2);
             queue.Enqueue(10);
@@ -82,6 +84,7 @@ namespace QueueWithStacksUnitTests
 
             Stack stack1 = new Stack(n1);
             Stack stack2 = new Stack(n2);
+            stack2.Pop();
 
             Queue queue = new Queue(stack1, stack2);
             queue.Enqueue(10);

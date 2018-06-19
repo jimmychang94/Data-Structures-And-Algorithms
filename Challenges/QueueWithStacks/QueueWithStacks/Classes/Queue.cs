@@ -44,16 +44,15 @@ namespace QueueWithStacks.Classes
         /// <returns>This is the node at the bottom of stack 1</returns>
         public Node Dequeue()
         {
-            while (Stack1.Peek().Next != null)
+            if (Stack2.Peek() == null)
             {
+                while (Stack1.Peek().Next != null)
+                {
+                    Stack2.Push(Stack1.Pop());
+                }
                 Stack2.Push(Stack1.Pop());
             }
-            Node current = Stack1.Pop();
-            while (Stack2.Peek().Next != null)
-            {
-                Stack1.Push(Stack2.Pop());
-            }
-            return current;
+            return Stack2.Pop();
         }
     }
 }
