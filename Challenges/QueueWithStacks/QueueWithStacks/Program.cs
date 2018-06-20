@@ -31,8 +31,8 @@ namespace QueueWithStacks
             Console.WriteLine(queue.Dequeue().Value);
             Console.WriteLine(queue.Dequeue().Value);
             Console.WriteLine(queue.Dequeue().Value);
-            Console.WriteLine(queue.Stack1.Top.Value);
-
+            Console.WriteLine(queue.Dequeue().Value);
+            Console.WriteLine(queue.Dequeue().Value);
         }
     }
 }
