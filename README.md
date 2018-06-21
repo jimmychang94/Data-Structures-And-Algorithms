@@ -10,4 +10,5 @@
 6. [Merge Two Linked Lists](Challenges/LinkedListmerge/README.md)  
 7. [Stack and Queue](DataStructures/StackAndQueue/README.md)  
 8. [Queueing with Stacks](Challenges/QueueWithStacks/README.md)  
-9. [First-In, First out Animal Shelter](Challenges/FIFOAnimalShelter/README.md)
+9. [First-In, First out Animal Shelter](Challenges/FIFOAnimalShelter/README.md)  
+10. [Multi-bracket Validation](Challenges/MultiBracketValidation/README.md)  
