@@ -12,3 +12,4 @@
 8. [Queueing with Stacks](Challenges/QueueWithStacks/README.md)  
 9. [First-In, First out Animal Shelter](Challenges/FIFOAnimalShelter/README.md)  
 10. [Multi-bracket Validation](Challenges/MultiBracketValidation/README.md)  
+11. [Binary Trees and Binary Search Trees](DataStructures/Trees/README.md)  
