@@ -19,7 +19,7 @@ To implement this version of stacks and queues a few steps must be followed:
 1. Download Visual Studio
 2. Clone the GitHub repository "Data-Structures-And-Algorithms"
 3. Inside the folder "StackAndQueue" open the sln file "StackAndQueue" in Visual Studio
-4. You may now utilize the stack and queue class by using StackAndQueue.Classes as a liibrary and then using the Stack and Queue classes created in this solution.
+4. You may now utilize the stack and queue class by using StackAndQueue.Classes as a library and then using the Stack and Queue classes created in this solution.
 
 ## Types of uses
 A stack is utilized when there are dependencies between each of the items.  
