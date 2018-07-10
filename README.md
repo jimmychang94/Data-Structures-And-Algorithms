@@ -17,3 +17,4 @@
 1. [Linked Lists](DataStructures/LinkedLists/README.md) 
 2. [Stack and Queue](DataStructures/StackAndQueue/README.md)  
 3. [Binary Trees and Binary Search Trees](DataStructures/Trees/README.md)  
+4. [Graphs](DataStructures/Graphs/README.md)  
