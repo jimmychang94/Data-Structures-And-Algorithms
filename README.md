@@ -12,6 +12,7 @@
 8. [Multi-bracket Validation](Challenges/MultiBracketValidation/README.md)  
 9. [FizzBuzzTree](Challenges/FizzBuzzTree/README.md)  
 10. [Find Maximum Value in a Binary Tree](Challenges/FindMax/README.md)  
+11. [Get Edges](Challenges/GetEdge/README.md)  
 
 ## Data Structures
 1. [Linked Lists](DataStructures/LinkedLists/README.md) 
