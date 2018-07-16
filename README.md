@@ -21,3 +21,4 @@
 2. [Stack and Queue](DataStructures/StackAndQueue/README.md)  
 3. [Binary Trees and Binary Search Trees](DataStructures/Trees/README.md)  
 4. [Graphs](DataStructures/Graphs/README.md)  
+5. [Hashtables](DataStructures/HashTables/README.md)  
