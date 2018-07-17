@@ -14,6 +14,7 @@
 10. [Find Maximum Value in a Binary Tree](Challenges/FindMax/README.md)  
 11. [Get Edges](Challenges/GetEdge/README.md)  
 12. [Find Islands](Challenges/FindIslands/README.md)  
+13. [Find the first Repeated Word](Challenges/RepeatedWord.md)  
 
 
 ## Data Structures
