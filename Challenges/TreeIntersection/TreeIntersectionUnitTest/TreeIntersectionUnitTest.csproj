@@ -21,6 +21,9 @@
     <Reference Include="HashTables">
       <HintPath>..\..\..\DataStructures\HashTables\HashTables\bin\Debug\netcoreapp2.1\HashTables.dll</HintPath>
     </Reference>
+    <Reference Include="Trees">
+      <HintPath>..\..\..\DataStructures\Trees\Trees\bin\Debug\netcoreapp2.1\Trees.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

@@ -9,7 +9,6 @@ namespace TreeIntersection
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             Trees.Classes.Node n1 = new Trees.Classes.Node(10);
             Trees.Classes.Node n2 = new Trees.Classes.Node(20);
             Trees.Classes.Node n3 = new Trees.Classes.Node(30);
@@ -45,6 +44,12 @@ namespace TreeIntersection
             }
         }
 
+        /// <summary>
+        /// This method takes in two tree nodes and returns a list of the values that are the same.
+        /// </summary>
+        /// <param name="n1">The node for the first tree</param>
+        /// <param name="n2">The node for the second tree</param>
+        /// <returns>A list of same values</returns>
         public static List<int> TreeIntersection (Trees.Classes.Node n1, Trees.Classes.Node n2)
         {
             List<int> answers = new List<int>();
