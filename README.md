@@ -16,6 +16,7 @@
 12. [Find Islands](Challenges/FindIslands/README.md)  
 13. [Find the first Repeated Word](Challenges/RepeatedWord/README.md)  
 14. [Tree Intersection](Challenges/TreeIntersection/README.md)  
+15. [Left Join](Challenges/LeftJoin/README.md)  
 
 
 ## Data Structures
