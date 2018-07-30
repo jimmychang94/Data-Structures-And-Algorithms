@@ -25,3 +25,4 @@
 3. [Binary Trees and Binary Search Trees](DataStructures/Trees/README.md)  
 4. [Graphs](DataStructures/Graphs/README.md)  
 5. [Hashtables](DataStructures/HashTables/README.md)  
+6. [Sorting Algorithms](DataStructures/Sorting_Algorithms/README.md)  
