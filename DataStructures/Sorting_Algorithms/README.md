@@ -20,3 +20,17 @@ Inside this second loop is where a swap is done for the loop.
 Sorting an array which is already mostly sorted.  
 Another example would be when you are sorting cards in your hand.  
 If you sort it from left to right, moving any that are smaller to the left, you are performing an insertion sort.  
+
+## Merge Sort
+
+### Description
+This sorting method uses recursion to sort the given array.  
+It first recursively divides the array until the size is 1.  
+Then it starts merging them together while sorting them with the smallest value first.  
+Temporary arrays holding the left and right values are created and filled.  
+Then the merging is done through a while loop that compares two values and then puts the smallest value into the actual array.  
+The loop breaks when one of the temp arrays reaches the end 
+and then the rest of the array that didn't reach the end gets added onto the end of the actual array.  
+
+### Visual
+![Merge Sort](../../assets/merge_sort.jpg)  
