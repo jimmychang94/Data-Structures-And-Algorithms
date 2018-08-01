@@ -34,3 +34,17 @@ and then the rest of the array that didn't reach the end gets added onto the end
 
 ### Visual
 ![Merge Sort](../../assets/merge_sort.jpg)  
+
+## Quick Sort
+
+### Description
+This sorting method uses recursion to sort the given array.  
+It first takes a "pivot" and then compares the value at the pivot to the rest of the array.  
+It has 2 counters; 1 for the where it is in the traversal, and one for the location of where it last swapped values.  
+If the current value is less than the value at the pivot, 
+the swap index increases by 1 and it swaps the values at the two counters mentioned above.  
+Once the traversal is done, it swaps the value at the pivot with the value at the swap index + 1.  
+It then recursively calls itself while decreasing the range of where it is swapping.  
+
+### Visual
+![Quick Sort](../../assets/quick_sort.jpg)

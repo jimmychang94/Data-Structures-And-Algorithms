@@ -13,7 +13,8 @@ namespace Sorting_Algorithms
             }
             Console.WriteLine();
             //InsertionsSort(unsortedArray);
-            MergeSort(unsortedArray);
+            //MergeSort(unsortedArray);
+            QuickSort(unsortedArray);
             foreach(int value in unsortedArray)
             {
                 Console.Write($"{value} -> ");
@@ -39,6 +40,7 @@ namespace Sorting_Algorithms
                 }
             }
         }
+
         /// <summary>
         /// This method takes in an array and sorts it recursively (using its overloaded method)
         /// </summary>
@@ -129,6 +131,68 @@ namespace Sorting_Algorithms
                 j++;
                 k++;
             }
+        }
+
+        /// <summary>
+        /// This method takes in an array and sorts it recursively (using its overloaded method)
+        /// </summary>
+        /// <param name="array">The array to be sorted</param>
+        public static void QuickSort(int[] array)
+        {
+            int left = 0;
+            int right = array.Length - 1;
+            if (left < right)
+            {
+                int p = Partition(array, left, right);
+                QuickSort(array, left, p - 1);
+                QuickSort(array, p + 1, right);
+            }
+        }
+
+        /// <summary>
+        /// This method takes in an array to be sorted and the left/right bounds that we are looking at.
+        /// </summary>
+        /// <param name="array">The array to be sorted</param>
+        /// <param name="left">The current left bound</param>
+        /// <param name="right">The current rught bound</param>
+        public static void QuickSort(int[] array, int left, int right)
+        {
+            if (left < right)
+            {
+                int p = Partition(array, left, right);
+                QuickSort(array, left, p -  1);
+                QuickSort(array, p + 1, right);
+            }
+        }
+
+        /// <summary>
+        /// This is the logic behind how it sorts the array
+        /// It sets a pivot variable to be the value at the right bound
+        /// It then adjusts the positions of the array while comparing the values starting at the left bound
+        /// </summary>
+        /// <param name="array">The array to be sorted</param>
+        /// <param name="left">The current left bound</param>
+        /// <param name="right">The current right bound</param>
+        /// <returns>The index of where the pivot is</returns>
+        public static int Partition(int[] array, int left, int right)
+        {
+            int pivot = array[right];
+            int i = (left - 1);
+            int temp;
+            for (int j = left; j <= right - 1; j++)
+            {
+                if (array[j] <= pivot)
+                {
+                    i++;
+                    temp = array[i];
+                    array[i] = array[j];
+                    array[j] = temp;
+                }
+            }
+            temp = array[i + 1];
+            array[i + 1] = array[right];
+            array[right] = temp;
+            return (i + 1);
         }
     }
 }
