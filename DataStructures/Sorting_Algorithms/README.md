@@ -59,4 +59,4 @@ The final iteration would then change the array to be correctly sorted.
 
 ### Visual
 I didn't have the time to draw a visual of it myself, but this video helped me understand radix sort.  
-![Radix Sort](https://youtu.be/nu4gDuFabIM)  
+[Radix Sort Video](https://youtu.be/nu4gDuFabIM)  
