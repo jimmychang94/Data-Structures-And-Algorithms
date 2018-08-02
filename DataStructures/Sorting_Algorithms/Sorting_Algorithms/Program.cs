@@ -14,7 +14,8 @@ namespace Sorting_Algorithms
             Console.WriteLine();
             //InsertionsSort(unsortedArray);
             //MergeSort(unsortedArray);
-            QuickSort(unsortedArray);
+            //QuickSort(unsortedArray);
+            RadixSort(unsortedArray);
             foreach(int value in unsortedArray)
             {
                 Console.Write($"{value} -> ");
@@ -193,6 +194,77 @@ namespace Sorting_Algorithms
             array[i + 1] = array[right];
             array[right] = temp;
             return (i + 1);
+        }
+
+        /// <summary>
+        /// This sorts through checking each digit (ones, tens, hundreds, etc).  
+        /// It then sorts it from smallest to largest on that digit.  
+        /// It recursively calls its sorting method until the entire array is sorted.  
+        /// </summary>
+        /// <param name="array">The array to sort</param>
+        public static void RadixSort(int[] array)
+        {
+            int m = GetMax(array);
+
+            for (int x = 1; m/x > 0; x *= 10)
+            {
+                CountSort(array, x);
+            }
+        }
+
+        /// <summary>
+        /// This sorts the array based off of a digit.  
+        /// This changes based off of the x which determines the digit.  
+        /// </summary>
+        /// <param name="array">The array to sort</param>
+        /// <param name="x">The marker for the digit</param>
+        public static void CountSort(int[] array, int x)
+        {
+            int[] output = new int[array.Length];
+            int i;
+            int[] count = new int[10];
+
+            for(i = 0; i < array.Length; i ++)
+            {
+                int z = (array[i] / x) % 10;
+                count[z]++;
+            }
+
+            for(i = 1; i < 10; i ++)
+            {
+                count[i] += count[i - 1];
+            }
+
+            for(i = array.Length - 1; i >= 0; i --)
+            {
+                int z = (array[i] / x) % 10;
+                int y = count[z] - 1;
+                output[y] = array[i];
+                count[z]--;
+            }
+
+            for(i = 0; i < array.Length; i ++)
+            {
+                array[i] = output[i];
+            }
+        }
+
+        /// <summary>
+        /// This gets the maximum value of an array
+        /// </summary>
+        /// <param name="array">The array</param>
+        /// <returns>The max value</returns>
+        public static int GetMax(int[] array)
+        {
+            int currentMax = array[0];
+            foreach(int value in array)
+            {
+                if (value > currentMax)
+                {
+                    currentMax = value;
+                }
+            }
+            return currentMax;
         }
     }
 }

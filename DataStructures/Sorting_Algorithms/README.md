@@ -48,3 +48,15 @@ It then recursively calls itself while decreasing the range of where it is swapp
 
 ### Visual
 ![Quick Sort](../../assets/quick_sort.jpg)
+
+## Radix Sort
+
+### Description
+This sorting method uses recursion to sort a given array.  
+It takes a look at each digit and then sorts the array based off of that from smallest to largest.  
+Each iteration looks at a different digit ("ones", "tens", "hundreds", "thousands", etc...)  
+The final iteration would then change the array to be correctly sorted.  
+
+### Visual
+I didn't have the time to draw a visual of it myself, but this video helped me understand radix sort.  
+![Radix Sort](https://youtu.be/nu4gDuFabIM)  
