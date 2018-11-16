@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotate2DArray", "Rotate2DArray\Rotate2DArray.csproj", "{0843AD4F-FC26-4FA1-8251-2890EFE7ECF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0843AD4F-FC26-4FA1-8251-2890EFE7ECF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0843AD4F-FC26-4FA1-8251-2890EFE7ECF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0843AD4F-FC26-4FA1-8251-2890EFE7ECF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0843AD4F-FC26-4FA1-8251-2890EFE7ECF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19D03099-458F-478C-82B3-389C94AB9022}
+	EndGlobalSection
+EndGlobal
